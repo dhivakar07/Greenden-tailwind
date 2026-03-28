@@ -58,8 +58,16 @@
           Plants for your Interior
         </h2>
         <div>
-          <button class="bg-black text-white rounded p-2">Shop Now</button>
-          <button class="border border-black rounded p-2">Watch Video</button>
+          <button
+            class="bg-black text-white rounded p-2 duration-1000 hover:bg-gray-300 hover:text-black"
+          >
+            Shop Now
+          </button>
+          <button
+            class="border border-black rounded p-2 duration-1000 hover:bg-black hover:text-white"
+          >
+            Watch Video
+          </button>
         </div>
         <p class="mt-4">160+ Plant Species | 100+ Clients</p>
       </div>
@@ -159,41 +167,97 @@
     <section class="p-2 text-center">
       <h1 class="font-bold text-3xl">Best Seller</h1>
       <div class="grid grid-cols-2 md:grid-cols-4 mt-4 gap-5">
-        <div>
+        <div class="relative mb-2">
           <img
             src="./image/bestseller1.jpeg"
             alt="plant img"
             class="border rounded inline hover:shadow-2xl transform duration-1000 hover:-translate-y-2"
           />
-          <h1>Succulent Plant</h1>
-          <p>₹200</p>
+          <p
+            class="z-2 absolute top-2 left-14 p-2 font-light bg-green-800 text-white text-xs rounded"
+          >
+            30% OFF
+          </p>
+          <h1 class="mb-1">Succulent Plant</h1>
+          <div class="mb-1 flex gap-1 justify-center">
+            <p class="bg-blue-200 p-1 rounded text-sm">Air Purifying</p>
+            <p class="bg-yellow-200 p-1 rounded text-sm">Low Maintenance</p>
+          </div>
+          <p class="text-green-500">₹200</p>
+          <button
+            class="bg-green-800 border border-black text-xl text-white px-6 rounded duration-1000 hover:bg-transparent hover:text-black"
+          >
+            ADD TO CART
+          </button>
         </div>
-        <div>
+        <div class="relative mb-2">
           <img
             src="./image/bestseller2.jpeg"
             alt="plant img"
             class="border rounded inline hover:shadow-2xl transform duration-1000 hover:-translate-y-2"
           />
-          <h1>Bird of Paradise Plant</h1>
-          <p>₹150</p>
+          <p
+            class="z-2 absolute top-2 left-14 p-2 font-light bg-green-800 text-white text-xs rounded"
+          >
+            27% OFF
+          </p>
+          <h1 class="mb-1">Bird of Paradise Plant</h1>
+          <div class="mb-1 flex gap-1 justify-center">
+            <p class="bg-blue-200 p-1 rounded text-sm">Air Purifying</p>
+            <p class="bg-pink-200 p-1 rounded text-sm">Stress Reduction</p>
+          </div>
+          <p class="text-green-500">₹150</p>
+          <button
+            class="bg-green-800 border border-black text-xl text-white px-6 rounded duration-1000 hover:bg-transparent hover:text-black"
+          >
+            ADD TO CART
+          </button>
         </div>
-        <div>
+        <div class="relative mb-2">
           <img
             src="./image/bestseller3.jpeg"
             alt="plant img"
             class="border rounded inline hover:shadow-2xl transform duration-1000 hover:-translate-y-2"
           />
-          <h1>Areca Palm Plant</h1>
-          <p>₹360</p>
+          <p
+            class="z-2 absolute top-2 left-14 p-2 font-light bg-green-800 text-white text-xs rounded"
+          >
+            20% OFF
+          </p>
+          <h1 class="mb-1">Areca Palm Plant</h1>
+          <div class="mb-1 flex gap-1 justify-center">
+            <p class="bg-gray-200 p-1 rounded text-sm">Humidity Control</p>
+            <p class="bg-yellow-200 p-1 rounded text-sm">Low Maintenance</p>
+          </div>
+          <p class="text-green-500">₹360</p>
+          <button
+            class="bg-green-800 border border-black text-xl text-white px-6 rounded duration-1000 hover:bg-transparent hover:text-black"
+          >
+            ADD TO CART
+          </button>
         </div>
-        <div>
+        <div class="relative mb-2">
           <img
             src="./image/bestseller4.jpeg"
             alt="plant img"
             class="border rounded inline hover:shadow-2xl transform duration-1000 hover:-translate-y-2"
           />
-          <h1>Peace Lily Plant</h1>
-          <p>₹500</p>
+          <p
+            class="z-2 absolute top-2 left-14 p-2 font-light bg-green-800 text-white text-xs rounded"
+          >
+            15% OFF
+          </p>
+          <h1 class="mb-1">Peace Lily Plant</h1>
+          <div class="mb-1 flex gap-1 justify-center">
+            <p class="bg-pink-200 p-1 rounded text-sm">Stress Reduction</p>
+            <p class="bg-red-200 p-1 rounded text-sm">Modern Decor</p>
+          </div>
+          <p class="text-green-500">₹500</p>
+          <button
+            class="bg-green-800 border border-black text-xl text-white px-6 rounded duration-1000 hover:bg-transparent hover:text-black"
+          >
+            ADD TO CART
+          </button>
         </div>
       </div>
     </section>
@@ -202,7 +266,7 @@
     <section>
       <h1 class="font-bold text-3xl text-center mt-5">Customer Reviews</h1>
       <div class="flex flex-col justify-center gap-5 text-white m-5">
-        <div class="bg-green-900 p-5">
+        <div class="bg-green-900 p-5 rounded">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
             aperiam earum vero facere impedit in quasi quis commodi cupiditate
@@ -211,7 +275,7 @@
           </p>
           <p class="font-bold text-yellow-400">Genny Mathiew</p>
         </div>
-        <div class="bg-green-900 p-5">
+        <div class="bg-green-900 p-5 rounded">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
             aperiam earum vero facere impedit in quasi quis commodi cupiditate
@@ -220,7 +284,7 @@
           </p>
           <p class="font-bold text-yellow-400">Jim</p>
         </div>
-        <div class="bg-green-900 p-5">
+        <div class="bg-green-900 p-5 rounded">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
             aperiam earum vero facere impedit in quasi quis commodi cupiditate
@@ -241,10 +305,14 @@
       </p>
       <input
         type="text"
-        class="border border-black p-2 m-3"
+        class="border rounded border-black p-2 m-3"
         style="width: 60%"
       /><br />
-      <button class="bg-black text-white underline p-2 m-1">Subscribe</button>
+      <button
+        class="bg-black text-white rounded underline p-2 m-1 duration-1000 hover:bg-gray-300 hover:text-black"
+      >
+        Subscribe
+      </button>
     </section>
 
     <!-- footer -->
